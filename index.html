@@ -1,0 +1,1669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABB - Müasir, Faydalı, Universal</title>
+    <link rel="icon" href="/img/abbicon.png">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <script src="https://kit.fontawesome.com/cdb3dc47c3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    
+</head>
+<body>
+
+    <!-- BURGER NAV  -->
+
+    <!-- NAV 1 RESP  -->
+    <div class="nav1-resp-bg">
+    <div class="nav1-resp">
+        <div class="nav1-resp_1">
+            <select>
+                <option>Fərdi</option>
+                <option>Korpo</option>
+                <option>KOB</option>
+            </select>
+        </div>
+        <div class="nav1-resp_2">
+            <div class="navbar1_2">
+                <div class="navbar1_2-search">
+                <button onclick="openSearch()"><i class="fas fa-search"></i></button>
+            </div>
+                <div class="dropdown">
+                    <button onclick="opendrop3()" class="dropbtn">AZ <i id="arrowDown3" class="fa-solid fa-chevron-down"></i> </button>
+                    <div id="mydrop3" class="dropdown-content">
+                    <a style="display:flex; align-items: center;" href="#"><img style="width: 30px; margin-right: 10px;" src="/img/british.png">EN</a>
+                    <a style="display:flex; align-items: center;" href="#"><img style="width: 30px; margin-right: 10px;" src="/img/russian.png">RU</a>
+                    </div>
+                  </div>
+                  <div class="navbar1_2-tel">
+                  <a href="tel:937"><i class="fas fa-phone"></i>937</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- NAV 2 RESP  -->
+    <nav class="nav2-resp">
+        <a href="#" class="nav2-resp-img"><img src="/img/abblogo.png" alt="logo"></a>
+        <div class="nav-menu">
+            <div class="nav2_1">
+                <a href="#"><i class="fas fa-sign-in"></i> İnternet Bankçılıq</a>
+            </div>
+            <div class="nav2_2">
+                <div class="nav2_2-box">
+                    <a href="#">Tender elanları</a>
+                </div>
+                <div class="nav2_2-box">
+                    <a href="#">Haqqımızda</a>
+                </div>
+                <div class="nav2_2-box">
+                    <a href="#">Tariflər</a>
+                </div>
+                <div class="nav2_2-box">
+                    <a href="#">Xəbərlər</a>
+                </div>
+                <div class="nav2_2-box">
+                    <a href="#">Xidmət şəbəkəsi</a>
+                </div>
+                <div class="nav2_2-box">
+                    <a href="#">Təklif və şikayətlər</a>
+                </div>
+                <div class="nav2_2-box">
+                    <a href="#">Onlayn xidmətlər</a>
+                </div>
+                <div class="nav2_2-box">
+                    <a href="#">Karyera portalı</a>
+                </div>
+            </div>
+
+            <div class="nav2_3">
+                <!-- 1 -->
+                <div class="nav2_3-card">
+                    <a onclick="opendrop4()" href="javascript:void(0)">
+                        <h2>Kreditler</h2>
+                        <i id="arrowDown4" class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <div id="mydrop4" class="nav2_3-hidden">
+                        <a href="#">İpoteka krediti</a>
+                        <a href="#">Pul krediti</a>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="nav2_3-card">
+                    <a onclick="opendrop5()" href="javascript:void(0)">
+                        <h2>Əmanətlər</h2>
+                        <i id="arrowDown5" class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <div id="mydrop5" class="nav2_3-hidden">
+                        <a href="#">Əmanətli ipoteka krediti</a>
+                        <a href="#">Depozit seyfi</a>
+                        <a href="#">Əmanətlərin sığortalanması</a>
+                        <a href="#">"Klassik" əmanəti</a>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="nav2_3-card">
+                    <a onclick="opendrop6()" href="javascript:void(0)">
+                        <h2>Kartlar</h2>
+                        <i id="arrowDown6" class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <div id="mydrop6" class="nav2_3-hidden">
+                        <a href="#">Azercell Co-Brand kartı</a>
+                        <a href="#">TamKart Debet kartları</a>
+                        <a href="#">ABB Miles</a>
+                        <a href="#">TamKart Taksit kartları</a>
+                        <a href="#">Eksklüziv kartlar</a>
+                        <a href="#">Status kartları</a>
+                        <a href="#">Adi kartlar</a>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="nav2_3-card">
+                    <a onclick="opendrop7()" href="javascript:void(0)">
+                        <h2>Pul köçürmələri</h2>
+                        <i id="arrowDown7" class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <div id="mydrop7" class="nav2_3-hidden">
+                        <a href="#">Valyuta tənzimlənməsi</a>
+                        <a href="#">Hesabdan köçürmələr</a>
+                        <a href="#">Təcili pul köçürmələri</a>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="nav2_3-card">
+                    <a onclick="opendrop8()" href="javascript:void(0)">
+                        <h2>Cari hesab</h2>
+                        <i id="arrowDown8" class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <div id="mydrop8" class="nav2_3-hidden">
+                        <a href="#">Kassa əməliyyatları</a>
+                        <a href="#">Mübadilə əməliyyatları</a>
+                        <a href="#">Arayış sifariş edin</a>
+                        <a href="#">Hesabınıza nəzarət edin</a>
+                        <a href="#">Cari hesab açın</a>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="nav2_3-card">
+                    <a onclick="opendrop9()" href="javascript:void(0)">
+                        <h2>Elektron xidmətlər</h2>
+                        <i id="arrowDown9" class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <div id="mydrop9" class="nav2_3-hidden">
+                        <a href="#">NFC ödənişi</a>
+                        <a href="#">Qatarlara təmassız keçid</a>
+                        <a href="#">Kreditinizi ödəyin</a>
+                        <a href="#">3D Secure</a>
+                        <a href="#">Kart sifariş edin</a>
+                        <a href="#">Karta pul yatırın</a>
+                        <a href="#">PIN-kodunuzu dəyişin</a>
+                        <a href="#">Xidmət haqlarını ödəyin</a>
+                        <a href="#">R@ndevu</a>
+                        <a href="#">Kartdan pul köçürün</a>
+                        <a href="#">SMS xəbərdarlıq</a>
+                    </div>
+                </div>
+                <!-- 7 -->
+                <div class="nav2_3-card">
+                    <a onclick="opendrop10()" href="javascript:void(0)">
+                        <h2>Bank 24/7</h2>
+                        <i id="arrowDown10" class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <div id="mydrop10" class="nav2_3-hidden">
+                        <a href="#">Məlumat Mərkəzi 24/7</a>
+                        <a href="#">Cash-In ATM-i</a>
+                        <a href="#">Ödəniş terminalı</a>
+                        <a href="#">ATM</a>
+                        <a href="#">ABB Banking - İnternet Bank</a>
+                        <a href="#">ABB mobile - Mobil Bank</a>
+                    </div>
+                </div>
+                <!-- 8 -->
+                <div class="nav2_3-card">
+                    <a href="javascript:void(0)">
+                        <h2>QayğıCash klubu</h2>
+                    </a>
+                </div>
+                                <!-- 9 -->
+                <div class="nav2_3-card">
+                    <a  href="javascript:void(0)">
+                        <h2>Kampaniyalar</h2>
+                    </a>
+                </div>
+
+                </div>
+    </div>
+
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- ENDS BURGER  -->
+
+      <div class="navbar1-bg">
+        <div class="navbar-container">
+            <div class="navbar1">
+                <div class="navbar1_1">
+                <ul>
+                    <li><a href="/">Tender elanları</a></li>
+                    <li><a href="/">Haqqımızda</a></li>
+                    <li><a href="/">Tariflər</a></li>
+                    <li><a href="/">Xəbərlər</a></li>
+                    <li><a href="/">Xidmət şəbəkəsi</a></li>
+                    <li><a href="/">Təklif və şikayətlər</a></li>
+                    <li><a href="/">Onlayn xidmətlər</a></li>
+                </ul>
+                    <button>Karyera portalı</button>
+                </div>
+                <div class="navbar1_2">
+                    <div class="navbar1_2-search">
+                    <button onclick="openSearch()"><i class="fas fa-search"></i> Axtarış</button>
+                </div>
+                    <div class="dropdown">
+                        <button onclick="opendrop()" class="dropbtn">AZ <i id="arrowDown" class="fa-solid fa-chevron-down"></i> </button>
+                        <div id="mydrop" class="dropdown-content">
+                        <a style="display:flex; align-items: center;" href="#"><img style="width: 30px; margin-right: 10px;" src="/img/british.png">EN</a>
+                        <a style="display:flex; align-items: center;" href="#"><img style="width: 30px; margin-right: 10px;" src="/img/russian.png">RU</a>
+                        </div>
+                      </div>
+                      <div class="navbar1_2-tel">
+                      <a href="tel:937"><i class="fas fa-phone"></i>937</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="searchArea" class="nav1_2-search_area">
+        <form class="nav1_2-search_area2" >
+        <input type="text" id="withoutSubmit" name="withoutSubmit" placeholder="Sizə necə kömək edə bilərik?">
+        <div>
+        <span onclick="closeSearch()"><i class="fas fa-times"></i></span>
+        </div>
+    </form>
+    </div>
+    <div class="abb">
+    <div class="navbar-container">
+
+    <div class="navbar2">
+        <div class="navbar2_1">
+            <a href="#"><img src="/img/abblogo.png"></a>
+            <ul>
+                <li><a href="#">Fərdi<span>/</span></a></li>
+                <li><a style="opacity: 0.5;" href="#">Korporativ<span>/</span></a></li>
+                <li><a style="opacity: 0.5;" href="#">KOB</a></li>
+            </ul>
+        </div>
+        <div class="navbar2_2">
+            <a href="#"><i class="fas fa-sign-in"></i></a>
+            <a href="#">İnternet Bankçılıq</a>
+        </div>
+    </div>
+</div>
+<div class="navbar2beetwen3_hr"><hr></div>
+    <div class="navbar3visible">
+        <ul>
+
+<!-- 1 -->
+
+            <li id="navbar3Area">
+                <a  style="margin-left: 55px" class="navbar3-dropbtn" href="#">Kreditlər</a>
+                <div id="navbar3Hover" class="navbar3-content">
+                    <div class="navbar3hidden">
+                        <div class="navbar3_1">
+                    <div class="navbar3_1_a">
+                    <a href="#">İpoteka krediti</a>
+                </div>
+                <div class="navbar3_1_a">
+                    <a href="#">Pul krediti</a>
+                </div>
+            </div>
+                <div class="navbar3_2">
+                    <img src="/img/navbar3photo1.png">
+                    <div class="navbar3_2_2">
+                    <h2>Onlayn kredit sifarişi</h2>
+                    <h3>Bütün ehtiyaclarınız üçün nağd pul krediti</h3>
+                    <button>Daha ətraflı</button>
+                </div>
+                </div>
+                <div class="navbar3-close">
+                    <button onclick="closeNavbar3()"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+                </div>
+            </li>
+            
+
+<!-- 2 -->
+            <li>
+                <a class="navbar3-dropbtn" href="#">Məsafədən hesab aç</a>
+            </li>
+
+<!-- 3 -->
+            <li id="navbar3Area2" >
+                <a class="navbar3-dropbtn" href="#">Əmanətlər</a>
+                <div id="navbar3Hover2" class="navbar3-content">
+                    <div class="navbar3hidden">
+                        <div class="navbar3_1">
+                    <div class="navbar3_1_a">
+                    <a href="#">"Klassik" əmanəti</a>
+                    <a href="#">Əmanətli ipoteka krediti</a>
+                </div>
+                <div class="navbar3_1_a">
+                    <a href="#">Əmanətlərin sığortalanması</a>
+                    <a href="#">Depozit seyfi</a>
+                </div>
+            </div>
+                <div class="navbar3-close">
+                    <button onclick="closeNavbar3()"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+                </div>
+            </li>
+<!-- 4 -->
+            <li  id="navbar3Area3">
+                <a class="navbar3-dropbtn" href="#">Kartlar</a>
+                <div id="navbar3Hover3" class="navbar3-content">
+                    <div class="navbar3hidden">
+                        <div class="navbar3_1">
+                    <div class="navbar3_1_a">
+                    <a href="#">Adi kartlar</a>
+                    <a href="#">Status kartları</a>
+                    <a href="#">TamKart Taksit kartları</a>
+                    <a href="#">ABB Miles</a>
+                </div>
+                <div class="navbar3_1_a">
+                    <a href="#">Azercell Co-Brand kartı</a>
+                    <a href="#">Eksklüziv kartlar</a>
+                    <a href="#">TamKart Debet kartları</a>
+                </div>
+            </div>
+               <div class="navbar3_mid">
+                    </div>
+                <div class="navbar3_2">
+                    <img src="/img/navbar3photo2.png">
+                    <div class="navbar3_2_2">
+                    <h2>İstədiyin tam budur!</h2>
+                    <h3>Bütün ödənişlərinizdə keşbək qazanın</h3>
+                    <button>Daha ətraflı</button>
+                </div>
+                </div>
+                <div class="navbar3-close">
+                    <button onclick="closeNavbar3()"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+                </div>
+            </li>
+<!-- 5 -->
+            <li  id="navbar3Area4">
+                <a class="navbar3-dropbtn" href="#">Pul köçürmələri</a>
+                <div id="navbar3Hover4" class="navbar3-content">
+                    <div class="navbar3hidden">
+                        <div class="navbar3_1">
+                    <div class="navbar3_1_a">
+                    <a href="#">Valyuta tənzimlənməsi</a>
+                    <a href="#">Təcili pul köçürmələri</a>
+                </div>
+                <div class="navbar3_1_a">
+                    <a href="#">Hesabdan köçürmələr</a>
+                </div>
+            </div>
+                <div class="navbar3-close">
+                    <button onclick="closeNavbar3()"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+                </div>
+            </li>
+<!-- 6 -->
+            <li  id="navbar3Area5">
+                <a class="navbar3-dropbtn" href="#">Cari hesab</a>
+                <div id="navbar3Hover5" class="navbar3-content">
+                    <div class="navbar3hidden">
+                        <div class="navbar3_1">
+                    <div class="navbar3_1_a">
+                    <a href="#">Cari hesab açın</a>
+                    <a href="#">Hesabınıza nəzarət edin</a>
+                    <a href="#">Mübadilə əməliyyatları</a>
+                </div>
+                <div class="navbar3_1_a">
+                    <a href="#">Kassa əməliyyatları</a>
+                    <a href="#">Arayış sifariş edin</a>
+                </div>
+            </div>
+                <div class="navbar3_2">
+                    <img src="/img/navbar3photo3.jpg">
+                    <div class="navbar3_2_2">
+                    <h2>Məsafədən hesab aç</h2>
+                    <h3>Banka gəlmədən fiziki şəxs hesabı aç</h3>
+                    <button>Daha ətraflı</button>
+                </div>
+                </div>
+                <div class="navbar3-close">
+                    <button onclick="closeNavbar3()"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+                </div>
+            </li>
+<!-- 7 -->
+            <li id="navbar3Area6">
+                <a class="navbar3-dropbtn" href="#">Elektron xidmətlər</a>
+                <div id="navbar3Hover6" class="navbar3-content">
+                    <div class="navbar3hidden">
+                        <div class="navbar3_1">
+                    <div class="navbar3_1_a">
+                    <a href="#">NFC ödənişi</a>
+                    <a href="#">Karta pul yatırın</a>
+                    <a href="#">Kart sifariş edin</a>
+                    <a href="#">Randevu</a>
+                    <a href="#">Xidmət haqlarını ödəyin</a>
+                    <a href="#">3D Secure</a>
+                </div>
+                <div class="navbar3_1_a">
+                    <a href="#">Qatarlara təmassız keçid</a>
+                    <a href="#">Kartdan pul köçürün</a>
+                    <a href="#">SMS xəbərdarlıq</a>
+                    <a href="#">PIN-kodunuzu dəyişin</a>
+                    <a href="#">Kreditinizi ödəyin</a>
+                </div>
+            </div>
+                <div class="navbar3_2">
+                    <img src="/img/navbar3photo4.jpg">
+                    <div class="navbar3_2_2">
+                    <h2>Randevu xidmətimizdən yararlanın</h2>
+                    <h3>Banka gəlməmişdən bir gün əvvəl müraciət edərək görüş vaxtını özünüz təyin edin</h3>
+                    <button>Daha ətraflı</button>
+                </div>
+                </div>
+                <div class="navbar3-close">
+                    <button onclick="closeNavbar3()"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+                </div>
+            </li>
+<!-- 8 -->
+            <li id="navbar3Area7" >
+                <a class="navbar3-dropbtn" href="#">Bank 24/7</a>
+                <div id="navbar3Hover7" class="navbar3-content">
+                    <div class="navbar3hidden">
+                        <div class="navbar3_1">
+                    <div class="navbar3_1_a">
+                    <a href="#">Məlumat Mərkəzi 24/7</a>
+                    <a href="#">Ödəniş terminalı</a>
+                    <a href="#">ABB Banking - İnternet Bank</a>
+                </div>
+                <div class="navbar3_1_a">
+                    <a href="#">Cash-In ATM-i</a>
+                    <a href="#">ATM</a>
+                    <a href="#">ABB mobile - Mobil Bank</a>
+                </div>
+            </div>
+                <div class="navbar3_2">
+                    <img src="/img/navbar3photo5.png">
+                    <div class="navbar3_2_2">
+                    <h2>İlklərdən ol!</h2>
+                    <h3>Apple Pay ilə ödənişlərini sadə, sürətli və təhlükəsiz apar</h3>
+                    <button>Daha ətraflı</button>
+                </div>
+                </div>
+                <div class="navbar3-close">
+                    <button onclick="closeNavbar3()"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+                </div>
+            </li>
+
+            <li><a class="navbar3-dropbtn" href="#">QayğıCash klubu</a></li>
+            <li><a class="navbar3-dropbtn" href="#">Kampaniyalar</a></li>
+        </ul>
+    </div>
+</div>
+  
+    
+
+    <!-- SLIDER -->
+
+    <div class="sliderBackground">
+
+            <!-- Slider main container -->
+<div class="swiper">
+
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+
+      <div class="swiper-slide">
+        <div class="sliderFirst">
+            <h1>Gəncliyini tam yaşa</h1>
+            <h2>TamGənc kartını indi sifariş et!</h2>
+            <button>Daha ətraflı</button>
+        </div>
+        <div class="sliderSecond">
+            <img src="/img/slide1.png" alt="kart">
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="sliderFirst">
+            <h1>ABB ipoteka şərtlərini yenilədi</h1>
+            <h2>Sərfəli şətlərimizlə ev sahibi olan ailələrdən biri olun</h2>
+            <button>Daha ətraflı</button>
+        </div>
+        <div class="sliderSecond">
+            <img src="/img/slide2.png" alt="ev">
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="sliderFirst">
+            <h1>Anar Cəfərov yeni ev sahibi oldu</h1>
+            <h2>Aylıq 588 AZN ödənişlə 70 000 AZN ipoteka krediti</h2>
+            <button>Sifariş edin</button>
+        </div>
+        <div class="sliderSecond">
+            <img src="/img/slide3.png" alt="kart">
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="sliderFirst">
+            <h1>Vəliyevlər ailəsi yeni ev sahibi oldu</h1>
+            <h2>İllik 6%-dən başlayaraq 200 000 AZN ipoteka krediti</h2>
+            <button>Sifariş edin</button>
+        </div>
+        <div class="sliderSecond">
+            <img src="/img/slide4.png" alt="kart">
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="sliderFirst">
+            <h1>Əhmədovlar ailəsi yeni ev sahibi oldu</h1>
+            <h2>Aylıq 772 AZN ödənişlə 100 000 AZN ipoteka krediti</h2>
+            <button>Sifariş edin</button>
+        </div>
+        <div class="sliderSecond">
+            <img src="/img/slide5.png" alt="kart">
+        </div>
+      </div>
+
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+
+</div>
+
+        </div>
+
+          <!-- MAIN  -->
+        <!-- SECTION 1 -->
+
+        <div class="section-container">
+            <div class="section1">
+                <div class="section1-title">
+                    <h2>Sadə keçidlər</h2>
+                </div>
+                <div class="section1-cardlar">
+
+                <div class="section1-card">
+                    <div class="section1-card-content">
+                        <h3>Nağd pul krediti</h3>
+                        <p>Bütün ehtiyaclarınız üçün 20 000 AZN-dək nağd pul krediti</p>
+                        <button>Kredit al</button>
+                    </div>
+                    <div class="section1-card-img">
+                        <img src="/img/section1-1.png" alt="pul">
+                    </div>
+                </div>
+
+                <div class="section1-card">
+                    <div class="section1-card-content">
+                        <h3>TamKart</h3>
+                        <p>Hər kəs üçün 24 ayadək hissəli ödəniş imkanı olan faizsiz taksit kartı</p>
+                        <button>Sifariş et</button>
+                    </div>
+                    <div class="section1-card-img">
+                        <img src="/img/section1-2.png" alt="pul">
+                    </div>
+                </div>
+
+                <div class="section1-card">
+                    <div class="section1-card-content">
+                        <h3>ABB mobile</h3>
+                        <p>İstədiyin yerdən bank xidmətlərini rahatlıqla idarə edə bildiyin sadə və sürətli mobil tətbiq</p>
+                        <button>Tətbiqi yüklə</button>
+                    </div>
+                    <div class="section1-card-img">
+                        <img src="/img/section1-3.png" alt="pul">
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+        
+
+                <!-- KREDIT FAIZ SECTION 2  -->
+
+                <div class="funksiya-container">
+                    <div class="section2-title">
+                        <a href="#">Kredit kalkulyatoru</a>
+                    </div>
+                    <!-- 1 -->
+                    <div class="section2">
+                    <div class="section2_1">
+                    <div class="section2-box">
+                    <div class="section2-box-inside">
+                            <div class="section2-box-content">
+                                <h2>Kredit məbləği</h2>
+                            </div>
+                            <form>
+                            <div class="section2-box-price">
+                                <input name="amountInput" oninput="this.form.amountRange.value=this.value" id="kredit1_in"  type="number" value="5000"  min="1" max="30000" minlength="1" >
+                                <h2>AZN</h2>
+                            </div>
+                    </div>
+                    <div class="section2-range">
+                    <input name="amountRange" oninput="this.form.amountInput.value=this.value" id="kredit1_range"  min="1" max="30000" value="5000" type="range">
+                </div>
+            </form>
+                    <div class="section2-outside">
+                        <div class="section2-outside-length">
+                            <h2>1</h2>
+                        </div>
+                        <div class="section2-outside-length">
+                            <h2>30000</h2>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- 2 -->
+                <div class="section2-box">
+                    <div class="section2-box-inside">
+                            <div class="section2-box-content">
+                                <h2>Kredit müddəti</h2>
+                            </div>
+                            <form>
+                            <div class="section2-box-price">
+                                <input name="amountInput" oninput="this.form.amountRange.value=this.value" id="kredit2_in" value="6"  type="number" min="1" max="54" >
+                                <h2>ay</h2>
+                            </div>
+                    </div>
+                    <div class="section2-range">
+                    <input name="amountRange" oninput="this.form.amountInput.value=this.value" id="kredit2_range" value="6" min="1" max="54"  type="range">
+                </div>
+            </form> 
+                    <div class="section2-outside">
+                        <div class="section2-outside-length">
+                            <h2>1 ay</h2>
+                        </div>
+                        <div class="section2-outside-length">
+                            <h2>54 ay</h2>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- 3 -->
+                <div class="section2-box">
+                    <div class="section2-box-inside">
+                            <div class="section2-box-content">
+                                <h2>Faiz dərəcəsi</h2>
+                            </div>
+                            <form>
+                            <div class="section2-box-price">
+                                <input name="amountInput" oninput="this.form.amountRange.value=this.value" id="kredit3_in" value="14"  type="number"  min="14" max="27" >
+                                <h2>%</h2>
+                            </div>
+                    </div>
+                    <div class="section2-range">
+                    <input name="amountRange" oninput="this.form.amountInput.value=this.value" id="kredit3_range" min="14" max="27" value="14" type="range">
+                </div>
+            </form>
+                    <div class="section2-outside">
+                        <div class="section2-outside-length">
+                            <h2>14%</h2>
+                        </div>
+                        <div class="section2-outside-length">
+                            <h2>27%</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-ilkin">
+                    <h2>İlkin hesablama </h2>
+                </div>
+                </div>
+    
+                <!-- 2_2  -->
+    
+                <div class="section2_2">
+                    <div class="section2_2-monthprice">
+                        <h2 id="ayliq">867.69 ₼</h2>
+                        <h3>Aylıq ödəniş</h3>
+                    </div>
+                    <div class="section2_2-hr"></div>
+                    <div class="section2_2-totalprice">
+                        <h2 id="mebleg">5206.14 ₼</h2>
+                        <h3>Ümumi məbləğ</h3>
+                    </div>
+                    <div class="section2_2-button">
+                        <button>Kredit al</button>
+                    </div>
+                </div>
+            </div>
+    
+            </div>
+
+                    <!-- SECTION 3  -->
+        
+        <div class="section3-bg">
+            <div  class="section-container">
+                <div class="section3-main">
+                    <div class="section3-title">
+                        <h2>Təkliflərimiz</h2>
+                    </div>
+    
+                    <div class="section3">
+                        <!-- 1 -->
+                        <div class="section3-card">
+                            <div class="section3-img">
+                                <img src="/img/section3-1.png" alt="kart">
+                            </div>
+                            <div class="section3-card-content">
+                                <h2>Kartlar</h2>
+                                <p>ABB-dən debet və kredit, status və eksklüziv, virtual, 
+                                    taksit və başqa kartlar. Nağdsız ödənişlərin üstünlüklərindən faydalanın.</p>
+                                    <a href="#">Daha ətraflı <i class="fa-solid fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="section3-card">
+                            <div class="section3-img">
+                                <img src="/img/section3-2.png" alt="kart">
+                            </div>
+                            <div class="section3-card-content">
+                                <h2>Kreditlər</h2>
+                                <p>ABB-dən sərfəli kreditlər. Əməkhaqqı və pensiya kartlarımızın sahiblərinə özəl endirimlər.Sizə ən yaxın nöqtəmizi</p>
+                                    <a href="#">Daha ətraflı <i class="fa-solid fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div class="section3-card">
+                            <div class="section3-img">
+                                <img src="/img/section3-3.png" alt="kart">
+                            </div>
+                            <div class="section3-card-content">
+                                <h2>Xidmət ofisi və ATM-lər</h2>
+                                <p>ABB 61 filial, 17 şöbə və 900-dən çox ATM-i ilə xidmətinizdədir. Sizə ən yaxın nöqtəmizi rahatlıqla seçin.</p>
+                                    <a href="#">Daha ətraflı <i class="fa-solid fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+            <!-- SECTION 4 / VALYUTA  -->
+
+    <div class="section4-bg">
+        <div class="funksiya-container">
+            <div class="section4-main">
+                <div class="section4-title">
+                    <h2>Valyuta məzənnələri</h2>
+                </div>
+    
+                <div class="section4">
+    
+                    <div class="section4-box1">
+    
+                        <div class="section4-box">
+    
+                            <div class="section4-line-title">
+                                <h2 class="sec4-title1">Valyuta</h2>
+                                <h2 class="sec4-title2">Satış</h2>
+                                <h2 class="sec4-title3">Alış</h2>
+                            </div>
+                            <!-- 1 -->
+                            <div class="section4-prices">
+                            <div class="section4-currency">
+                                <h2>USD</h2>
+                            </div>
+                            <div class="section4-satis">
+                                <h2>1.7020</h2>
+                                <span class="icon-price-none"><img style=" width: 100%" src="/img/down.png" alt=""></span>
+                            </div>
+                            <div class="section4-alis">
+                                <h2>1.6970</h2>
+                                <span class="icon-price-none"></span>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="section4-prices">
+                            <div class="section4-currency">
+                                <h2>EUR</h2>
+                            </div>
+                            <div class="section4-satis">
+                                <h2>
+                                    1.7275</h2>
+                                <span class="icon-price-none"><img style=" width: 100%" src="/img/down.png" alt=""></span>
+                            </div>
+                            <div class="section4-alis">
+                                <h2>1.6428</h2>
+                                <span class="icon-price-none"></span>
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div class="section4-prices">
+                            <div class="section4-currency">
+                                <h2>RUB</h2>
+                            </div>
+                            <div class="section4-satis">
+                                <h2>0.0323</h2>
+                                <span class="icon-price-none"></span>
+                            </div>
+                            <div class="section4-alis">
+                                <h2>0.0211</h2>
+                                <span class="icon-price-none"></span>
+                            </div>
+                        </div>
+    
+                        </div>
+                        <div class="section4-status">
+                            <h2>Son yenilənmə: 15.08.2022</h2>
+                            <a href="#">Bütün valyuta məzənnələri <i class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+    
+                    <div class="section4-box2">
+                        <div class="section4-box2-title">
+                            <h2>Valyuta konvertoru</h2>
+                        </div>
+    
+                        <div class="section4-box2-input">
+                            
+                            <div class="sec4-box2-inside">
+                            <input id="satiram_in" value="1" type="number" placeholder="Satıram">
+                        </div>
+                        
+                        <!-- HERE  -->
+                        <div class="select-menu1">
+                            <select id="satiram">
+                                <option value="USD">USD</option>
+                                <option value="AZN">AZN</option>
+                                <option value="RUB">RUB</option>
+                                <option value="EUR">EUR</option>
+                              </select>
+                        </div>
+    
+                        </div>
+    
+                        <div class="section4-box2-input">
+                            
+                            <div class="sec4-box2-inside">
+                            <input id="aliram_in" type="number" placeholder="Alıram">
+                        </div>
+
+                        <!-- HERE 2  -->
+                        <div class="select-menu2">
+                            <select id="aliram">
+                                <option value="AZN">AZN</option>
+                                <option value="USD">USD</option>
+                                <option value="RUB">RUB</option>
+                                <option value="EUR">EUR</option>
+                              </select>
+                        </div>
+
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION 5  -->
+<div class="section5-bg">
+    <div class="section5-bg_1">
+        <div class="section5_1">
+            <div class="section5_1-content">
+                <h2>İnnovativ ideyalarınızı ABB İnnovasiya Mərkəzi ilə reallaşdırın</h2>
+                <a href="#">Daha ətraflı <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div class="section5_1-img">
+                <img src="/img/section5-1.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="section5-bg_2">
+        <div class="section5_2">
+            <div class="section5_2-content">
+                <h2>ABB Link-lə 2 günə virtual POS-terminal sahibi olun</h2>
+                <a href="#">Daha ətraflı <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div class="section5_2-img">
+                <img src="/img/section5-2.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SECTION 6  -->
+<div class="section-container">
+    <div class="section6-main">
+        <div class="section6-title">
+            <h2>Xəbərlər</h2>
+        </div>
+        <div class="section6">
+        <div class="section6-box">
+            <div class="section6-content">
+                <a href="#">Yeni beynəlxalq ödəniş aləti ölkəmizə gəlir</a>
+                    <h2 class="sec6-date">16.08.2022</h2>
+            </div>
+        </div>
+
+        <div class="section6-box">
+            <div class="section6-content">
+                <a href="#">Moody’s ABB-nin reytinqlərini yüksəltdi</a>
+                    <h2 class="sec6-date">16.08.2022</h2>
+            </div>
+        </div>
+
+        <div class="section6-box">
+            <div class="section6-content">
+                <a href="#">TamGənc kartı ilə gəncliyini TAM yaşa!</a>
+                    <h2 class="sec6-date">16.08.2022</h2>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- SECTION 7 -->
+
+<div class="section-container">
+    <div class="section7">
+    <div class="section7-bg">
+        <div class="section7-content">
+            <h2>Partnyorumuz olun</h2>
+            <a href="#">Daha ətraflı <i class="fa-solid fa-angle-right"></i></a>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- FOOTER TOP   -->
+
+<div class="footer-top">
+    <div class="section-container">
+        <div class="footer1">
+            <div class="footer1_1">
+                <a href="#"><img src="/img/abblogo.png" alt="abblogo"></a>
+            </div>
+            <div class="footer1_2">
+                <a href="#"><i class="fas fa-sign-in"></i></a>
+                <a href="#">İnternet Bankçılıq</a>
+            </div>
+            <div class="footer1_2-resp">
+                <a  href="tel:937"><i  class="fas fa-phone"></i>937</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER NAV  -->
+
+<div class="footer-bg">
+    <div class="section-container">
+        <!-- RESPONSIVE  -->
+        <div class="footer-nav-resp">
+            <a href="#">Fərdi  /</a>
+            <a href="#">Haqqımızda / </a>
+            <a href="#">Korporativ / </a>
+            <a href="#">KOB / </a>
+            <a href="#">Maliyyə və İnvestisiya</a>
+        </div>
+        <div class="footer-nav-resp2">
+            <div style="padding: 0 10px;" class="footer-nav_line">
+                <h2 style="padding-bottom: 0;">Əlaqə</h2>
+                <div  class="footer-nav-links">
+                    <ul>
+                        <li style="margin: 15px 0;"><span>Nizami küç. 67, AZ1005 Bakı, Azərbaycan</span></li>
+                        <li style="margin: 15px 0;"><span>Tel:</span><a style="color: #262626d0;" href="tel:(+994 12) 493 00 91"> (+994 12) 493 00 91</a></li>
+                        <li style="margin: 15px 0;"><span>Faks:</span><a style="color: #262626d0;" href="fax:(+994 12) 493 00 91"> (+994 12) 493 00 91</a></li>
+                        <li style="margin: 15px 0;"><span>E-poçt:</span><a style="color: #262626d0;" href="mailto:info@abb-bank.az"> info@abb-bank.az</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-nav-resp4">
+            <div style="margin: 30px 0; display: flex; flex-wrap: wrap;" class="footer4_3-1">
+                <a style="padding: 10px 13px; font-size: 20px; margin-right:10px; margin-bottom: 10px;" href="#"><i class="fab fa-instagram"></i></a>
+                <a style="padding: 10px 13px; font-size: 20px; margin-right:10px; margin-bottom: 10px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a style="padding: 10px 13px; font-size: 20px; margin-right:10px; margin-bottom: 10px;" href="#"><i class="fab fa-youtube"></i></a>
+                <a style="padding: 10px 13px; font-size: 20px; margin-right:10px; margin-bottom: 10px;" href="#"><i class="fab fa-twitter"></i></a>
+                <a style="padding: 10px 13px; font-size: 20px; margin-right:10px; margin-bottom: 10px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+         </div>
+        <div class="footer-nav-resp3">
+            <div style="flex-wrap: wrap;" class="footer3">
+            <a style="margin-bottom: 10px;" class="footer3-box" href="https://apps.apple.com/az/app/iba-mobile/id1251456175">
+                <div class="footer3-img">
+                    <img src="/img/applelogo.png" alt="">
+                </div>
+                <div class="footer3-content">
+                    <h2>Yüklə</h2>
+                    <h3>App Store</h3>
+                </div>
+            </a>
+
+            <a style="margin-bottom: 10px;"  class="footer3-box" href="https://play.google.com/store/apps/details?id=iba.mobilbank">
+                <div class="footer3-img">
+                    <img src="/img/pstore.png" alt="">
+                </div>
+                <div class="footer3-content">
+                    <h2>Yüklə</h2>
+                    <h3>Google Play</h3>
+                </div>
+            </a>
+
+            <a style="margin-bottom: 10px;" class="footer3-box" href="https://appgallery.huawei.com/app/C105078433">
+                <div class="footer3-img">
+                    <img src="/img/huawei.png" alt="">
+                </div>
+                <div class="footer3-content">
+                    <h2>Yüklə</h2>
+                    <h3>App Gallery</h3>
+                </div>
+            </a>
+        </div>
+         </div>
+
+ <!-- END RESPONSIVE  -->
+            <div class="footer-nav">
+                <!-- 1 -->
+                <div class="footer-nav_line">
+                        <h2>Fərdi</h2>
+                        <div class="footer-nav-links">
+                            <ul>
+                                <li><a href="#">Məsafədən hesab aç</a></li>
+                                <li><a href="#">Cari hesab</a></li>
+                                <li><a href="#">Elektron xidmətlər</a></li>
+                                <li><a href="#">Əmanətlər</a></li>
+                                <li><a href="#">QayğıCash klubu</a></li>
+                                <li><a href="#">Pul köçürmələri</a></li>
+                                <li><a href="#">Kartlar</a></li>
+                                <li><a href="#">Kreditlər</a></li>
+                                <li><a href="#">Bank 24/7</a></li>
+                                <li><a href="#">Kampaniyalar</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="footer-nav_line">
+                        <h2>Haqqımızda</h2>
+                        <div class="footer-nav-links">
+                            <ul>
+                                <li><a href="#">Siyasətlərimiz</a></li>
+                                <li><a href="#">Brend mərkəzi</a></li>
+                                <li><a href="#">Maliyyə monitorinqi və komplayns</a></li>
+                                <li><a href="#">Tender elanları</a></li>
+                                <li><a href="#">Mükafatlar</a></li>
+                                <li><a href="#">İnsan Resursları</a></li>
+                                <li><a href="#">Missiya və strateji baxış</a></li>
+                                <li><a href="#">Korporativ Sosial Məsuliyyət / Sponsorluq</a></li>
+                                <li><a href="#">Müxbir banklar</a></li>
+                                <li><a href="#">Törəmə və asılı müəssisələrdə iştirak payı</a></li>
+                                <li><a href="#">Məlumatların açıqlanması</a></li>
+                                <li><a href="#">Rəhbərlik</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="footer-nav_line">
+                        <h2>Korporativ</h2>
+                        <div class="footer-nav-links">
+                            <ul>
+                                <li><a href="#">Əməkhaqqı layihəsi</a></li>
+                                <li><a href="#">Elektron bankçılıq</a></li>
+                                <li><a href="#">Hesablar</a></li>
+                                <li><a href="#">Ödəniş kartları</a></li>
+                                <li><a href="#">Sənədli əməliyyatlar</a></li>
+                                <li><a href="#">Köçürmələr</a></li>
+                                <li><a href="#">Əmanətlər</a></li>
+                                <li><a href="#">Məsafədən hesab aç</a></li>
+                                <li><a href="#">Korporativ kreditlər</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="footer-nav_line">
+                        <h2>KOB</h2>
+                        <div class="footer-nav-links">
+                            <ul>
+                                <li><a href="#">Xidmət paketləri</a></li>
+                                <li><a href="#">Əmanətlər</a></li>
+                                <li><a href="#">Sahibkarlar Klubu</a></li>
+                                <li><a href="#">Hesablar</a></li>
+                                <li><a href="#">Ödəniş kartları</a></li>
+                                <li><a href="#">Elektron bankçılıq</a></li>
+                                <li><a href="#">Köçürmələr</a></li>
+                                <li><a href="#">Sənədli əməliyyatlar</a></li>
+                                <li><a href="#">ABB Link</a></li>
+                                <li><a href="#">Məsafədən hesab aç</a></li>
+                                <li><a href="#">Biznes kreditləri</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="footer-nav_line">
+                        <h2>Maliyyə və İnvestisiya</h2>
+                        <div class="footer-nav-links">
+                            <ul>
+                                <li><a href="#">Hesabatlar</a></li>
+                                <li><a href="#">Digər məlumatlar</a></li>
+                                <li><a href="#">Təqdimatlar</a></li>
+                                <li><a href="#">Reytinqlər</a></li>
+                                <li><a href="#">Səhmdarlar</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="footer-nav_line">
+                        <h2>Əlaqə</h2>
+                        <div class="footer-nav-links">
+                            <ul>
+                                <li><span>Nizami küç. 67, AZ1005 Bakı, Azərbaycan</span></li>
+                                <li><span>Tel:</span><a style="color: #262626d0;" href="tel:(+994 12) 493 00 91"> (+994 12) 493 00 91</a></li>
+                                <li><span>Faks:</span><a style="color: #262626d0;" href="fax:(+994 12) 493 00 91"> (+994 12) 493 00 91</a></li>
+                                <li><span>E-poçt:</span><a style="color: #262626d0;" href="mailto:info@abb-bank.az"> info@abb-bank.az</a></li>
+                                <li><a style="color: #000; font-size: 18px; font-family: sfprobold;" href="tel:937"><i style="font-size: 15px; margin-right: 8px;" class="fas fa-phone"></i>937</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+               </div>
+          </div>
+ <!-- FOOTER 3  -->
+          <div class="section-container">
+            <div class="footer3">
+            <a class="footer3-box" href="https://apps.apple.com/az/app/iba-mobile/id1251456175">
+                <div class="footer3-img">
+                    <img src="/img/applelogo.png" alt="">
+                </div>
+                <div class="footer3-content">
+                    <h2>Mobil tətbiqi yüklə</h2>
+                    <h3>App Store</h3>
+                </div>
+            </a>
+
+            <a class="footer3-box" href="https://play.google.com/store/apps/details?id=iba.mobilbank">
+                <div class="footer3-img">
+                    <img src="/img/pstore.png" alt="">
+                </div>
+                <div class="footer3-content">
+                    <h2>Mobil tətbiqi yüklə</h2>
+                    <h3>Google Play</h3>
+                </div>
+            </a>
+
+            <a class="footer3-box" href="https://appgallery.huawei.com/app/C105078433">
+                <div class="footer3-img">
+                    <img src="/img/huawei.png" alt="">
+                </div>
+                <div class="footer3-content">
+                    <h2>Mobil tətbiqi yüklə</h2>
+                    <h3>App Gallery</h3>
+                </div>
+            </a>
+        </div>
+         </div>
+
+         <div class="section-container">
+         <div class="footer4">
+            <div class="footer4_1">
+                <h2>© ABB - Bütün hüquqlar qorunur</h2>
+            </div>
+            <div class="footer4_2">
+                <a href=""><img style="width: 29px;" src="/img/foot4-1.png" alt=""></a>
+                <a href=""><img style="width: 35px;" src="/img/foot4-2.png" alt=""></a>
+                <a href=""><img style="width: 34px;" src="/img/foot4-3.png" alt=""></a>
+                <a href=""><img style="width: 48px;" src="/img/foot4-4.png" alt=""></a>
+            </div>
+            <div class="footer4_3">
+                <div class="footer4_3-1">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer4_3-2">
+                <div class="dropdown">
+                    <button onclick="opendrop2()" class="dropbtn">AZ <i id="arrowDown2" class="fa-solid fa-chevron-down"></i> </button>
+                    <div id="mydrop2" class="dropdown-content" style="bottom: 50px ; clip-path: unset; padding-top: unset;">
+                    <a style="display:flex; align-items: center;" href="#"><img style="width: 30px; margin-right: 10px;" src="/img/british.png">EN</a>
+                    <a style="display:flex; align-items: center;" href="#"><img style="width: 30px; margin-right: 10px;" src="/img/russian.png">RU</a>
+                    </div>
+                  </div>
+            </div>
+            </div>
+         </div>
+        </div>
+
+     </div>
+
+    
+
+
+
+    <!-- JAVA  -->
+    <script>
+
+        // VALYUTA 
+
+        const satiram = document.getElementById("satiram")
+const aliram = document.getElementById("aliram")
+let satiram_in = document.getElementById("satiram_in")
+let aliram_in = document.getElementById("aliram_in")
+
+
+
+const valyuta1 = () => {
+
+    if (satiram.value == "AZN") {
+
+        if (aliram.value == "USD") {
+            aliram_in.value = (satiram_in.value / 1.702).toFixed(4)
+        }
+        else if (aliram.value == "RUB") {
+            aliram_in.value = (satiram_in.value / 0.0323).toFixed(4)
+        }
+        else if (aliram.value == "EUR") {
+            aliram_in.value = (satiram_in.value / 1.7275).toFixed(4)
+        }
+    }
+    else if (satiram.value == "USD") {
+
+        aliram_in.value = (satiram_in.value * 1.697).toFixed(4)
+    }
+    else if (satiram.value == "RUB") {
+
+        aliram_in.value = (satiram_in.value * 0.0211).toFixed(4)
+    }
+    else if (satiram.value == "EUR") {
+
+        aliram_in.value = (satiram_in.value * 1.6428).toFixed(4)
+    }
+}
+
+const valyuta2 = () => {
+
+    if (aliram.value == "AZN") {
+
+        if (satiram.value == "USD") {
+            satiram_in.value = (aliram_in.value / 1.702).toFixed(4)
+        }
+        else if (satiram.value == "RUB") {
+            satiram_in.value = (aliram_in.value / 0.0323).toFixed(4)
+        }
+        else if (satiram.value == "EUR") {
+            satiram_in.value = (aliram_in.value / 1.7275).toFixed(4)
+        }
+    }
+    else if (aliram.value == "USD") {
+
+        satiram_in.value = (aliram_in.value * 1.697).toFixed(4)
+    }
+    else if (aliram.value == "RUB") {
+
+        satiram_in.value = (aliram_in.value * 0.0211).toFixed(4)
+    }
+    else if (aliram.value == "EUR") {
+
+        satiram_in.value = (aliram_in.value * 1.6428).toFixed(4)
+    }
+}
+
+const setValyuta1 = () => {
+
+    if (satiram.value == "AZN" && aliram.value == "AZN") {
+        aliram.value = "USD"
+    }
+    else if (satiram.value != "AZN" && aliram.value != "AZN") {
+        aliram.value = "AZN"
+    }
+}
+
+const setValyuta2 = () => {
+
+    if (aliram.value == "AZN" && satiram.value == "AZN") {
+        satiram.value = "USD"
+    }
+    else if (aliram.value != "AZN" && satiram.value != "AZN") {
+        satiram.value = "AZN"
+    }
+}
+
+satiram_in.addEventListener("keyup", valyuta1)
+aliram_in.addEventListener("keyup", valyuta2)
+satiram.addEventListener("change", setValyuta1)
+aliram.addEventListener("change", setValyuta2)
+satiram.addEventListener("change", valyuta1)
+aliram.addEventListener("change", valyuta2)
+
+valyuta1()
+
+
+
+
+        // kredit sec 2 
+// ----------------------------------------- 
+
+        // A = P * (1 + r/n) to the power of (nt)
+
+// p - amount
+// r - rate
+// n - times per year
+// t - years
+
+const kredit1_in = document.getElementById("kredit1_in")
+const kredit1_range = document.getElementById("kredit1_range")
+const kredit2_in = document.getElementById("kredit2_in")
+const kredit2_range = document.getElementById("kredit2_range")
+const kredit3_in = document.getElementById("kredit3_in")
+const kredit3_range = document.getElementById("kredit3_range")
+const ayliq = document.getElementById("ayliq")
+const mebleg = document.getElementById("mebleg")
+
+kredit1_range.addEventListener("change", function () {
+
+    kredit1_in.value = kredit1_range.value
+    hesabla()
+})
+
+kredit1_in.addEventListener("change", function () {
+
+    kredit1_range.value = kredit1_in.value
+    hesabla()
+})
+
+kredit2_range.addEventListener("change", function () {
+
+    kredit2_in.value = kredit2_range.value
+    hesabla()
+})
+
+kredit2_in.addEventListener("change", function () {
+
+    kredit2_range.value = kredit2_in.value
+    hesabla()
+})
+
+kredit3_range.addEventListener("change", function () {
+
+    kredit3_in.value = kredit3_range.value
+    hesabla()
+})
+
+kredit3_in.addEventListener("change", function () {
+
+    kredit3_range.value = kredit3_in.value
+    hesabla()
+})
+
+
+const hesabla = () => {
+
+    let s = kredit1_range.value
+    let n = kredit2_range.value
+    let p = ((kredit3_range.value / 100) / 12)
+
+    let a = s * (p + (p / (((1 + p) ** n) - 1)))
+
+    let b = a * n
+
+    ayliq.innerHTML = a.toFixed(2) + " ₼"
+    mebleg.innerHTML = b.toFixed(2) + " ₼"
+}
+
+        // LANGUAGE 
+
+         let mydrop = document.getElementById("mydrop")
+         let arrowDown = document.getElementById("arrowDown")
+        function opendrop(){
+            if(mydrop.style.display === "none"){
+                mydrop.style.display = "block"
+                arrowDown.style.transform = "rotate(180deg)"
+            }
+            else{
+                mydrop.style.display = "none"
+                arrowDown.style.transform = "rotate(0)"
+            }
+        }
+
+        let mydrop2 = document.getElementById("mydrop2")
+        let arrowDown2 = document.getElementById("arrowDown2")
+        function opendrop2(){
+            if(mydrop2.style.display === "none"){
+                mydrop2.style.display = "block"
+                arrowDown2.style.transform = "rotate(180deg)"
+            }
+            else{
+                mydrop2.style.display = "none"
+                arrowDown2.style.transform = "rotate(0)"
+            }
+        }
+
+        let mydrop3 = document.getElementById("mydrop3")
+        let arrowDown3 = document.getElementById("arrowDown3")
+        function opendrop3(){
+            if(mydrop3.style.display === "none"){
+                mydrop3.style.display = "block"
+                arrowDown3.style.transform = "rotate(180deg)"
+            }
+            else{
+                mydrop3.style.display = "none"
+                arrowDown3.style.transform = "rotate(0)"
+            }
+        }
+        
+
+        // SEARCH BUTTON WITHOUT SUBMIT
+        
+        document.getElementById('withoutSubmit')
+    .addEventListener('keyup', function(event) {
+        if (event.code === 'Enter')
+        {
+            event.preventDefault();
+            document.querySelector('form').submit();
+        }
+    });
+
+    // SEARCH BUTTON CLOSE BUTTON 2 ALTERNATIVE 
+    function openSearch(){
+        if(document.getElementById("searchArea").style.display === "none"){
+            document.getElementById("searchArea").style.display = "block"
+            }
+            else{
+                document.getElementById("searchArea").style.display = "none"
+            }
+    }
+    function closeSearch(){
+        document.getElementById("searchArea").style.display = "none"
+    }
+
+ 
+// NAVBAR 3 HIDDEN 
+const navbar3Hover = document.getElementById('navbar3Hover');
+const navbar3Hover2 = document.getElementById('navbar3Hover2');
+const navbar3Hover3 = document.getElementById('navbar3Hover3');
+const navbar3Hover4 = document.getElementById('navbar3Hover4');
+const navbar3Hover5 = document.getElementById('navbar3Hover5');
+const navbar3Hover6 = document.getElementById('navbar3Hover6');
+const navbar3Hover7 = document.getElementById('navbar3Hover7');
+const navbar3Area = document.getElementById('navbar3Area');
+const navbar3Area2 = document.getElementById('navbar3Area2');
+const navbar3Area3 = document.getElementById('navbar3Area3');
+const navbar3Area4 = document.getElementById('navbar3Area4');
+const navbar3Area5 = document.getElementById('navbar3Area5');
+const navbar3Area6 = document.getElementById('navbar3Area6');
+const navbar3Area7 = document.getElementById('navbar3Area7');
+
+
+navbar3Area.addEventListener('mouseover', function handleMouseOver() {
+    navbar3Hover.style.visibility = 'visible';
+});
+navbar3Area2.addEventListener('mouseover', function handleMouseOver() {
+    navbar3Hover2.style.visibility = 'visible';
+});
+navbar3Area3.addEventListener('mouseover', function handleMouseOver() {
+    navbar3Hover3.style.visibility = 'visible';
+});
+navbar3Area4.addEventListener('mouseover', function handleMouseOver() {
+    navbar3Hover4.style.visibility = 'visible';
+});
+navbar3Area5.addEventListener('mouseover', function handleMouseOver() {
+    navbar3Hover5.style.visibility = 'visible';
+});
+navbar3Area6.addEventListener('mouseover', function handleMouseOver() {
+    navbar3Hover6.style.visibility = 'visible';
+});
+navbar3Area7.addEventListener('mouseover', function handleMouseOver() {
+    navbar3Hover7.style.visibility = 'visible';
+});
+
+navbar3Area.addEventListener('mouseout', function handleMouseOut() {
+    navbar3Hover.style.visibility = 'hidden';
+});
+navbar3Area2.addEventListener('mouseout', function handleMouseOut() {
+    navbar3Hover2.style.visibility = 'hidden';
+});
+navbar3Area3.addEventListener('mouseout', function handleMouseOut() {
+    navbar3Hover3.style.visibility = 'hidden';
+});
+navbar3Area4.addEventListener('mouseout', function handleMouseOut() {
+    navbar3Hover4.style.visibility = 'hidden';
+});
+navbar3Area5.addEventListener('mouseout', function handleMouseOut() {
+    navbar3Hover5.style.visibility = 'hidden';
+});
+navbar3Area6.addEventListener('mouseout', function handleMouseOut() {
+    navbar3Hover6.style.visibility = 'hidden';
+});
+navbar3Area7.addEventListener('mouseout', function handleMouseOut() {
+    navbar3Hover7.style.visibility = 'hidden';
+});
+
+   // NAVBAR 3 CLOSE BUTTON 
+function closeNavbar3(){
+    navbar3Hover.style.visibility = 'hidden';
+    navbar3Hover2.style.visibility = 'hidden';
+    navbar3Hover3.style.visibility = 'hidden';
+    navbar3Hover4.style.visibility = 'hidden';
+    navbar3Hover5.style.visibility = 'hidden';
+    navbar3Hover6.style.visibility = 'hidden';
+    navbar3Hover7.style.visibility = 'hidden';
+}
+
+// SLIDER 
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay:{
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+    </script>
+
+    <script>
+
+        // VALYUTA 
+
+
+// RESP BURGER NAV 
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active")
+    navMenu.classList.toggle("active")
+})
+
+// RESP BURGER NAV 2 3 
+let mydrop4 = document.getElementById("mydrop4")
+         let arrowDown4 = document.getElementById("arrowDown4")
+        function opendrop4(){
+            if(mydrop4.style.display === "none"){
+                mydrop4.style.display = "block"
+                arrowDown4.style.transform = "rotate(180deg)"
+            }
+            else{
+                mydrop4.style.display = "none"
+                arrowDown4.style.transform = "rotate(0)"
+            }
+        }
+
+        let mydrop5 = document.getElementById("mydrop5")
+         let arrowDown5 = document.getElementById("arrowDown5")
+        function opendrop5(){
+            if(mydrop5.style.display === "none"){
+                mydrop5.style.display = "block"
+                arrowDown5.style.transform = "rotate(180deg)"
+            }
+            else{
+                mydrop5.style.display = "none"
+                arrowDown5.style.transform = "rotate(0)"
+            }
+        }
+
+        let mydrop6 = document.getElementById("mydrop6")
+         let arrowDown6 = document.getElementById("arrowDown6")
+        function opendrop6(){
+            if(mydrop6.style.display === "none"){
+                mydrop6.style.display = "block"
+                arrowDown6.style.transform = "rotate(180deg)"
+            }
+            else{
+                mydrop6.style.display = "none"
+                arrowDown6.style.transform = "rotate(0)"
+            }
+        }
+
+        let mydrop7 = document.getElementById("mydrop7")
+         let arrowDown7 = document.getElementById("arrowDown7")
+        function opendrop7(){
+            if(mydrop7.style.display === "none"){
+                mydrop7.style.display = "block"
+                arrowDown7.style.transform = "rotate(180deg)"
+            }
+            else{
+                mydrop7.style.display = "none"
+                arrowDown7.style.transform = "rotate(0)"
+            }
+        }
+
+        let mydrop8 = document.getElementById("mydrop8")
+         let arrowDown8 = document.getElementById("arrowDown8")
+        function opendrop8(){
+            if(mydrop8.style.display === "none"){
+                mydrop8.style.display = "block"
+                arrowDown8.style.transform = "rotate(180deg)"
+            }
+            else{
+                mydrop8.style.display = "none"
+                arrowDown8.style.transform = "rotate(0)"
+            }
+        }
+
+        let mydrop9 = document.getElementById("mydrop9")
+         let arrowDown9 = document.getElementById("arrowDown9")
+        function opendrop9(){
+            if(mydrop9.style.display === "none"){
+                mydrop9.style.display = "block"
+                arrowDown9.style.transform = "rotate(180deg)"
+            }
+            else{
+                mydrop9.style.display = "none"
+                arrowDown9.style.transform = "rotate(0)"
+            }
+        }
+
+        let mydrop10 = document.getElementById("mydrop10")
+         let arrowDown10 = document.getElementById("arrowDown10")
+        function opendrop10(){
+            if(mydrop10.style.display === "none"){
+                mydrop10.style.display = "block"
+                arrowDown10.style.transform = "rotate(180deg)"
+            }
+            else{
+                mydrop10.style.display = "none"
+                arrowDown10.style.transform = "rotate(0)"
+            }
+        }
+    </script>
+
+    
+</body>
+</html>
